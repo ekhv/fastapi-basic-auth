@@ -16,6 +16,6 @@ docker-compose up -d
 Check 
 ```shell
 curl --request GET \
-  --url http://localhost:8000/users/me \
+  --url 'http://localhost:8000/hello?name=Bob' \
   --header 'Authorization: Basic YWRtaW46cGFzc3dvcmQ='
 ```
